@@ -1,0 +1,80 @@
+.item-notfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-notfound > div {
+    height: 20%;
+}
+
+.nf-code {
+    font-size: 7rem;
+    border-right: var(--border-weight) solid var(--extra-color);
+    padding: 30px 20px;
+}
+
+.nf-message {
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.message-nf {
+    font-style: italic;
+    font-size: 2em;
+}
+
+.message-text {
+    font-size: 1.5rem;
+}
+
+.message-link {
+    border-bottom: var(--border-weight) solid var(--extra-color);
+    font-size: 1.3rem;
+    margin-top: 20px;
+    transition: 100ms all linear;
+}
+
+.message-link:hover {
+    color: var(--extra-color);
+}
+
+@media screen and (max-width: 1100px) {
+
+    .item-notfound {
+        flex-direction: column;
+    }
+
+    .nf-code {
+        border-right: 0;
+        border-bottom: var(--border-weight) solid var(--extra-color);
+    }
+
+    .nf-message {
+        align-items: center;
+        text-align: center;
+    }
+
+    .message-nf {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nf-code {
+        font-size: 6rem;
+        padding: 20px 20px;
+    }
+
+    .message-nf {
+        font-size: 1.7em;
+    }
+    
+    .message-text {
+        font-size: 1.2rem;
+    }
+}

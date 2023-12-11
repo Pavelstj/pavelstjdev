@@ -1,0 +1,48 @@
+.app-menu {
+    grid-row: 2;
+    grid-column: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 0;
+    min-width: 270px;
+}
+
+.menu-list {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.menu-list li {
+    box-sizing: border-box;
+    cursor: pointer;
+
+    list-style: none;
+    padding: 5px 10px;
+    margin: 7px auto;
+    font-size: 1.2em;
+    border: var(--border-weight) solid transparent;
+
+    transition: 100ms all linear;
+}
+
+.menu-list li:hover {
+    border-bottom: var(--border-weight) solid var(--extra-color);
+}
+
+.menu-list .active {
+    color: var(--extra-color);
+}
+
+@media screen and (max-width: 1560px) {
+}
+
+@media screen and (max-width: 1000px) {
+    .app-menu {
+        display: none;
+    }
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+#root {
+  --doc-height: 100%;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('../img/bgr.jpg'); /* todo */
+}
+
+/* dark theme*/
+html {
+  --background-color: #101314;
+  --text-color: #ffffff;
+  --extra-color: #02AABD;
+  --border-weight: 1px;
+}
+
+/* light theme*/
+html[data-theme='light'] {
+  --background-color: #E6E6EA;
+  --text-color: #000000;
+  --extra-color: #01707B;
+  --border-weight: 2px;
+}

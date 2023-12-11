@@ -1,0 +1,125 @@
+.app-head {
+    grid-row: 1;
+    grid-column: 2;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 0 20px;
+}
+
+.app-head > * {
+    margin: 10px 30px;
+}
+
+.head-cv {
+    color: var(--extra-color);
+    border: var(--border-weight) solid var(--extra-color);
+    padding: 3px 10px;
+    transition: 0.05s linear all;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+
+.head-cv:hover {
+    background: rgba(2, 170, 189, 0.1);
+}
+
+.head-cv-a {
+    color: inherit;
+}
+
+.head-switch {
+    cursor: pointer;
+    position: relative;
+    transition: all 0.1s ease-out;
+}
+
+.head-switch::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+    bottom: 100%;
+    background-color: rgba(2, 170, 189, 0.1);
+    font-size: 1.1rem;
+    padding: 3px 5px;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    transition: inherit;
+}
+
+.head-switch:hover:before {
+    opacity: 1;
+    z-index: 10;
+    visibility: visible;
+    bottom: calc(100% + 10px);
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+    transition: 0.2s all ease-in;
+}
+
+.hamburger-right {
+    margin-left: 300px;
+}
+
+.h-logo {
+    display: none;
+}
+
+.h-logo-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.h-logo-who {
+    color: var(--extra-color);
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+    .app-head {
+        grid-row: 1;
+        grid-column: 1/3;
+
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .head-cv {
+        display: none;
+    }
+
+    .h-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+.menu-active {
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+    .app-head > * {
+        margin: 5px 10px;
+    }
+
+    .h-logo-name {
+        font-size: 18px;
+    }
+    
+    .h-logo-who {
+        font-size: 18px;
+    }
+}

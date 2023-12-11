@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "name": "Auditor Certification",
+            "period": "08/2019 - 12/2019, 08/2020 - 08/2021",
+            "description": "Auditor certification system for the Ministry of Finance of the Republic of Belarus. The system is designated for conducing diﬀerent types of exams (automatic, oral, mixed) and for the support of all internal business processes (dictionaries, report and document generation, statistics etc).",
+            "technologies": "Java 8, Spring (Boot, MVC, Data, Security), Hibernate, PostgreSQL, MapStruct, BIRT Reports, JavaScript, React/Redux"
+        },
+        {
+            "id": 1,
+            "name": "Musical Fountain System",
+            "period": "02/2020 - 08/2020",
+            "description": "A system designated for operating Brest musical fountain. It allows ordering shows via SMS, controlling the fountain, tracing its status and collecting measurements at the fountain’s equiment.",
+            "technologies": "Java 11, Spring Boot, Hibernate, RabbitMQ, PostgreSQL, React.js, Chart.js"
+        },
+        {
+            "id": 2,
+            "name": "Resource Balancing System",
+            "period": "12/2020 - 01/2021",
+            "description": "A system designated for automating staﬃng optimization processes at production lines of a major plant. It allows to organize and register staﬀ transfers between production sections, to optimize vacation plans etc.",
+            "technologies": "Java 8, Spring (Boot, MVC, Data), Hibernate, PostgreSQL, React.js"
+        },
+        {
+            "id": 3,
+            "name": "Logistic Authomatic System",
+            "period": "08/2021 - 10/2022",
+            "description": "Warehouse manager with the ability to order the necessary goods easily, check information about your orders, track them, control the return of items.",
+            "technologies": "Java 11, Micronaut, Hibernate, JDBC, MySQL, MapStruct, JUnit"
+        }
+    ]
+}

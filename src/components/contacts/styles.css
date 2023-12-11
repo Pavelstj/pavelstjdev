@@ -1,0 +1,84 @@
+.app-contacts {
+    grid-row: 3;
+    grid-column: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 12px;
+    min-width: 270px;
+}
+
+.app-contacts > * {
+    margin: 5px 10px;
+}
+
+.contacts-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 80%;
+    height: 50px;
+}
+
+.contacts-icon {
+    height: 50px;
+    width: 50px;
+    border: var(--border-weight) solid rgba(2, 170, 189, 0.3);
+    box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.5);
+    position: relative;
+    transition: all 0.1s ease-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-icon::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+    bottom: 100%;
+    background-color: rgba(2, 170, 189, 0.5);
+    border: 1px solid #101314;
+    font-size: 1.1rem;
+    padding: 3px 5px;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    transition: inherit;
+}
+
+.contacts-icon:hover:before {
+    opacity: 1;
+    z-index: 10;
+    visibility: visible;
+    bottom: calc(100% + 10px);
+}
+
+.contacts-icon > .icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+    .contacts-icons {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .contacts-icon {
+        margin: auto 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .app-contacts {
+        display: none;
+    }
+}
