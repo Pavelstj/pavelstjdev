@@ -1,0 +1,8 @@
+{
+  "short_name": "Pavelstj Dev",
+  "name": "Pavel Skuratovets, Java software developer",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
