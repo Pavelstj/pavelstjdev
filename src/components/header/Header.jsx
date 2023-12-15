@@ -1,4 +1,4 @@
-import "./styles.css";
+import './styles.css';
 import resume from '../../files/Pavel_Skuratovets_CV.pdf';
 import { RxHamburgerMenu } from 'react-icons/rx';
 

@@ -14,8 +14,8 @@ const App = () => {
   const [activeMenu, setActiveMenu] = useState(false);
 
   return (
-    <IconContext.Provider value={{ color: "var(--extra-color)", className: "icons-class-name" }} >
-      <div className="app-container">
+    <IconContext.Provider value={{ color: 'var(--extra-color)', className: 'icons-class-name' }} >
+      <div className='app-container'>
         <Logo/>
         <Header 
           setActiveMenu={setActiveMenu}

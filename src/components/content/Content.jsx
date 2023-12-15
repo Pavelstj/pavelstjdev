@@ -1,11 +1,11 @@
-import "./styles.css";
-import HomePage from "./home/HomePage";
-import AboutPage from "./about/AboutPage";
-import ExperiencePage from "./experience/ExperiencePage";
-// import PortfolioPage from "./portfolio/PortfolioPage";
-import ContactsPage from "./contacts/ContactsPage";
-import NotFoundPage from "./notfound/NotfoundPage";
-import { Routes, Route, HashRouter } from "react-router-dom";
+import './styles.css';
+import HomePage from './home/HomePage';
+import AboutPage from './about/AboutPage';
+import ExperiencePage from './experience/ExperiencePage';
+// import PortfolioPage from './portfolio/PortfolioPage';
+import ContactsPage from './contacts/ContactsPage';
+import NotFoundPage from './notfound/NotfoundPage';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 
 
 const Content = () => {
