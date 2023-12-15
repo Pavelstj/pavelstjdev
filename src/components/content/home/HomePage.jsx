@@ -14,9 +14,9 @@ const HomePage = () => {
             >
               Java Software Developer
             </div>
-            <div className="left-cv">
+            <div className='left-cv'>
               <a 
-                className="left-cv-a"
+                className='left-cv-a'
                 href={resume}
                 rel='noreferrer noopener'
                 download='Pavel_Skuratovets_CV.pdf'
