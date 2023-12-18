@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pavelstjdev/static/css/main.87a2cef6.css",
-    "main.js": "/pavelstjdev/static/js/main.e2fc3e4f.js",
-    "static/media/bgd.jpg": "/pavelstjdev/static/media/bgd.fbb72031a1df63c35422.jpg",
+    "main.css": "/pavelstjdev/static/css/main.99346c6e.css",
+    "main.js": "/pavelstjdev/static/js/main.33320e67.js",
     "static/media/Pavel_Skuratovets_CV.pdf": "/pavelstjdev/static/media/Pavel_Skuratovets_CV.ac232d0b6815ff5b3c65.pdf",
+    "static/media/bgd.jpg": "/pavelstjdev/static/media/bgd.5cce519488b35177eebb.jpg",
     "index.html": "/pavelstjdev/index.html",
-    "main.87a2cef6.css.map": "/pavelstjdev/static/css/main.87a2cef6.css.map",
-    "main.e2fc3e4f.js.map": "/pavelstjdev/static/js/main.e2fc3e4f.js.map"
+    "main.99346c6e.css.map": "/pavelstjdev/static/css/main.99346c6e.css.map",
+    "main.33320e67.js.map": "/pavelstjdev/static/js/main.33320e67.js.map"
   },
   "entrypoints": [
-    "static/css/main.87a2cef6.css",
-    "static/js/main.e2fc3e4f.js"
+    "static/css/main.99346c6e.css",
+    "static/js/main.33320e67.js"
   ]
 }
